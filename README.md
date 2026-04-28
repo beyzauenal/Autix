@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Autix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build. Customize. Drive.
 
-Currently, two official plugins are available:
+Unser Notion:
+https://www.notion.so/318cc99755648038b49eccebd61e7caf?v=318cc997556480278c34000c82d3dd12&source=copy_link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Autix – Dein Auto. Deine Regeln.
 
-## React Compiler
+Willkommen bei Autix, der innovativen Plattform, auf der du dein Traumauto ganz nach deinen Vorstellungen gestalten kannst. Egal ob sportlich, elegant oder praktisch – bei uns bestimmst du jedes Detail selbst.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Was ist Autix?
 
-## Expanding the ESLint configuration
+Autix ist eine Website, auf der Nutzer ihr eigenes Auto individuell konfigurieren können.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Ziel
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Einfache, übersichtliche und personalisierte Auto-Konfiguration mit Preisberechnung.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Zielgruppe
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Autoliebhaber
+- Technik-Interessierte
+- Junge Nutzer, die gerne Dinge selbst gestalten
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Funktionen der Website
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Auto konfigurieren (Farbe, Modell, Ausstattung)
+- Motor auswählen
+- Extras hinzufügen (z. B. Sitzheizung, Sound-System)
+- Live-Preisberechnung
+- Verschiedene Konfigurationen vergleichen
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## USP / Besonderheiten
+
+- Echtzeit Preisanzeige 💰
+- Einfache Bedienung 👍
+- Viele Individualisierungsmöglichkeiten 🎨
+- Modernes Design
+
+## Aufbau der Website
+
+- Startseite
+- Konfigurator
+- Zusammenfassung
+- Preisübersicht
+
+## Design Ideen
+
+- Moderne Farben (z. B. Schwarz, Weiß, Blau)
+- Große Bilder von Autos
+- Einfache Navigation
+- Klare Buttons (z. B. „Jetzt konfigurieren“)
+
+## Technologien
+
+- HTML
+- CSS
+- JavaScript
+- Datenbank für Speicherung
+- Firebase / Supabase
+
+## Zukunft / Erweiterungen
+
+- Speichern von Konfigurationen
+- Login-System
+- Vergleich von Autos
+- Direkt bestellen
